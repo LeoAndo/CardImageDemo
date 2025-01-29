@@ -19,13 +19,18 @@
         android:id="@+id/btn_enter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="確定" />
+        android:text="対応する情報を表示する" />
 
     <ImageView
         android:id="@+id/img_card"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:importantForAccessibility="no"
         tools:src="@drawable/image001" />
+
+    <TextView
+        android:id="@+id/txt_book_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
